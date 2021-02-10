@@ -1,0 +1,18 @@
+---
+layout: default
+img: http://hochun836.com
+---
+{% include navigation.html %}
+
+{% assign author = site.authors | where: 'short_name', page.author | first %}
+
+<div style="background: lightyellow;">
+	<h1>{{ page.title }}</h1>
+	<p>{{ page.date | date_to_string }} - 
+		{% if author %} <a href="{{ author.url }}">{{ author.name }}</a> {% endif %}
+	</p>
+
+	{{ content }}
+</div>
+
+<div>img: {{ page.img }}</div>

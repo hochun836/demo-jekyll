@@ -1,0 +1,16 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css"/>
+	{% feed_meta %}
+  {% seo %}
+  </head>
+  <body>
+    Peter Kang - {{ jekyll.environment }}
+	<div style="border: 1px solid">{{ content }}</div>
+	<div>img: {{ page.img }}</div>
+  </body>
+</html>
