@@ -50,7 +50,7 @@ bundle exec jekyll serve
 (set livereload: true in _config.yml)
 ```
 
-build code (default output _site)
+build code (default output: _site)
 
 ```sh
 bundle exec jekyll build
@@ -59,3 +59,9 @@ or
 
 bundle exec jekyll b
 ```
+
+## Reference
+
+- [Jekyll Document](https://jekyllrb.com/)
+
+- [Jekyll Step by Step](https://jekyllrb.com/docs/step-by-step/01-setup/)
